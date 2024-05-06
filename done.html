@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> "Hi Name" </h1>
+    <br>
+    <form>
+        <section>
+        <label for="source">Travelling from:</label>
+        <select id="source" name="source">
+          <option value="dubai">dubai</option>
+          <option value="india">india</option>
+          <option value="USA">USA</option>
+          <option value="UK">UK</option>
+        </select>
+    </section>
+    <br>
+        <section>
+        <label for="destination">Travelling to:</label>
+        <select id="destination" name="destination">
+          <option value="dubai">dubai</option>
+          <option value="india">india</option>
+          <option value="USA">USA</option>
+          <option value="UK">UK</option>
+        </select>
+    </section>
+
+    <br>
+    <label for="start">Date:</label>
+
+    <input type="date" id="start" name="trip-start"
+       value="2018-07-22"
+       min="1996-01-01" max="2023-12-31">
+    <br>
+    <br>
+       <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+</body>
+</html>
